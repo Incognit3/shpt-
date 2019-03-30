@@ -80,21 +80,24 @@
 }
 
 #block3 h5:hover {
+	width: 225px;
 	border-bottom: 1px solid red; 
 }
 
 #block3 a {
 	color: white; 
-	text-decoration: none;}
+	text-decoration: none; 
+	font-family: Cuprum, Arial, Helvetica, sans-serif; }
 
 #WhiteCube{
-	height: 250px;
+	height: 0px;
 	background-color: white; 
 }
 
 #news{
 	text-align: center;
 	background-color: #e3e5e6; 
+	font-family: Cuprum, sans-serif;
 }
 
 #banners{
@@ -102,7 +105,7 @@
 }
 
 #footer{
-	height: 150px;
+	height: 65px;
 	background-color: #07597b;
 }
 

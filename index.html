@@ -16,15 +16,15 @@
 				<img src="img/logo.png" alt="">
 			</div>	
 			<div class="col-xl-8" id="bl-menu">
-				<h2>Шумерлнский политехнический техникум</h2>
+				<h2>Шумерлинский политехнический техникум</h2>
 				<p>Министерства образования и молодежной политики Чувашской Республики.</p>
 				
 				<!-- menu -->
 
-				<nav class="dws-menu" style="height: 1px">
+				<nav class="dws-menu" style="height: 1px; position: absolute;">
         		<ul>
             		<li><a href="#"><i class="fa fa-home"></i>Главная</a></li>
-            		<li><a href="#"><i class="fa fa-shopping-cart"></i>Продукция</a>
+            		<li><a href="#"><i class="fa fa-shopping-cart"></i>Информация</a>
                 <ul>
                     <li><a href="#">Одежда</a>
                         <ul>
@@ -51,7 +51,7 @@
                     <li><a href="#">Быт. химия</a></li>
                 </ul>
             </li>
-            <li><a href="#"><i class="fa fa-cogs"></i>Услуги</a>
+            <li><a href="#"><i class="fa fa-cogs"></i>Карта</a>
                 <ul>
                     <li><a href="#">Услуга 1</a></li>
                     <li><a href="#">Услуга 2</a></li>
@@ -74,11 +74,9 @@
 			<div class="col-xl-4" id="bl2-cont1">
 				<input type="search">
 				<input type="search">
-
 				<div class="col-xl-10 offset-xl-1" id="director">
 					<img src="img/director.jpg" alt="" width="85%">
-					<br>
-					<h5>Ларина Татьяна Александровна</h5>
+					<h5><br>Ларина Татьяна Александровна</h5>
 				</div>
 			</div>
 
@@ -92,18 +90,28 @@
   				</div>
 			</div>
 			<div class="col-xl-3 " id="svyaz">
-				<div class="col-xl-10 offset-xl-1">
-					<h4>Электронная приемная</h4>
+				<div class="col-xl-10 offset-xl-1" id="priem">	
+					<h4 style="color:white">Электронная 
+					приемная</h4>
+					<form action="#" method="post" id="form">
+						<div class="input">
+  							<input type="text" class="form-control" placeholder="Name" name="name" id="input">
+  							<input type="email" class="form-control" placeholder="Email" name="email" id="input">
+ 							<textarea type="text"  class="form-control" placeholder="Message" name="mess" id="input" cols="30" rows="10"></textarea>
+						</div>
+							<input type="submit" id="form-submit" class="btn btn-warning btn-lg pull-right " value="Send message" class="full2" name="submit"></input>
+					</form>
+				</div>
 
-					<br>
-					<br>
+				<br>
+				<br>
 
-					<!-- VK Widget -->
+				<!-- VK Widget -->
 
-					<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
-
-						<div id="vk_groups"></div>
-						<script type="text/javascript">
+				<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+		
+				<div id="vk_groups"></div>
+					<script type="text/javascript">
 							VK.Widgets.Group("vk_groups", {mode: 3}, 56457191);
 					</script>
 
@@ -117,10 +125,10 @@
 
 					<!-- Put this div tag to the place, where the Like block will be -->
 					
-						<div id="vk_like"></div>
-						<script type="text/javascript">
+					<div id="vk_like"></div>
+					<script type="text/javascript">
 						
-						VK.Widgets.Like("vk_like", {type: "button", height: 20});
+					VK.Widgets.Like("vk_like", {type: "button", height: 20});
 					
 					</script>
 				</div>
@@ -149,7 +157,7 @@
 			</div>
 			
 			<div class="col-xl-6" id="news">
-				<h2>Новости ШПТ</h2>
+				<h2> Новости ШПТ <i class="far fa-newspaper"></i></h2>
 			</div>
 
 			<!-- баннеры -->
