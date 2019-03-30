@@ -1,0 +1,232 @@
+/*   
+Theme Name: SHPTsite
+Theme URI: http://wordpress/
+Description: краткое-описание-темы
+Author: Skorpzmey and Incognit
+Version: 1.0
+
+.
+*/
+
+
+*{
+	margin: 0;
+}
+
+/*div {
+	border:1px solid red;
+}*/
+
+#logo{
+	height: 150px; 
+	background-color:#242421; 
+}
+
+#logo>img{
+	margin: auto;
+}
+
+#bl-menu{
+	background-color:#ECEAE0;
+}
+
+#menu1{
+	height: 3px;
+	margin-top: 10px; 
+}
+
+#menu2,#menu3,#menu4{
+	height: 30px;
+	margin-top: 30px; 	
+}
+
+#menu ul{
+	margin: 0;
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+    cursor: pointer;
+    z-index: 555;
+}
+#menu h5{
+	cursor: pointer;
+}
+
+#menu1.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -60px;
+}
+#menulist.open {
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+#menu3.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+#menu4.open ul{
+	display: block;
+	z-index: 555;
+	margin-top: -40px;
+}
+
+#menu1 ul div{
+	height: 400px;
+	width: 200px;
+	background-color: #206676;
+	text-align: center;
+	margin: 5px;
+	margin-left: 155px;
+	z-index: 556;
+	position: absolute;
+}
+#menu2 ul div{
+	height: 450px;
+	width: 200px;
+	background-color: #206676;
+	text-align: center;
+	margin: 5px;
+	margin-top: -155px;
+	margin-left: 165px;
+	z-index: 555;
+	position: absolute;
+}
+
+#menu3 ul div{
+	height: 400px;
+	width: 200px;
+	background-color: #206676;
+	text-align: center;
+	margin: 5px;
+	margin-top: -155px;
+	margin-left: 165px;
+	z-index: 555;
+	position: absolute;
+}
+
+#menu4 ul div{
+	height: 150px;
+	width: 200px;
+	background-color: #206676;
+	text-align: center;
+	margin: 5px;
+	margin-left: 155px;
+	z-index: 555;
+	position: absolute;
+}
+
+#bl-menu h2{
+	color:white;
+}
+
+#bl-menu p{
+	color:white;
+}
+
+#bl-menu div{
+	height: 50px;
+	float: left;
+}
+
+#block2>#bl2-cont1{
+ 	background-color: #DFD297;
+}
+
+#block2 input{
+ 	width: 100%;
+}
+
+.slider{
+	height: 400px;
+	z-index: 1;
+}
+
+#svyaz{
+	background-color: #63AA9C;
+}
+#priem{
+	cursor: pointer;
+}
+
+#fromasv from{
+	display: none;
+}
+
+#form.open{
+	display: block;
+	z-index: 555;
+	margin-top: -50px;
+	margin-left: -250px;
+}
+
+#director{
+	height: 300px;
+}
+
+#director h5{
+	margin-left: 10%;
+	margin-top: -2%;
+}
+
+#svyaz>div{
+	height: 100px;
+	background-color: #242421;
+	margin-top: 5%;
+}
+
+#svyaz>div>h4{
+	color:white;
+	text-align: center;
+}
+
+#info{
+	height: 550px;
+	background-color: #63AA9C;
+}
+
+#info h5{
+	color: white;
+	text-align: center;
+}
+
+#block3 h5:hover {
+	border-bottom: 1px solid red; 
+}
+
+#block3 a {
+	color: white; 
+	text-decoration: none; 
+	font-family: Cuprum, Arial, Helvetica, sans-serif; }
+
+#news{
+	background-color: #242421;
+	text-align: center;
+	z-index: 0; 
+}
+
+#banners{
+	background-color:#DFD297;
+}
+
+#footer{
+	height: 150px;
+	text-align: center;
+	background-color:#ECEAE0;
+}
+
+#news h4 {
+	color: white;
+	text-align: left;
+	margin-left: 145px;
+	font-family: Cuprum, sans-serif; }
+
+#student1 {
+	margin-left: -410px; }
+
+#student2 {
+	float: left;
+	margin-left: -98px;
+	margin-top: 115px; }
