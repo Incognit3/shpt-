@@ -1,23 +1,17 @@
-/*   
+/* 
+
 Theme Name: SHPTsite
 Theme URI: http://wordpress/
 Description: краткое-описание-темы
-Author: Skorpzmey and Incognit
+Author: Skorpzmey and Incognit3
 Version: 1.0
 
-.
 */
 
-
 *{
-	margin: 0;
-}
+	margin: 0; }
 
-/*div {
-	border:1px solid red;
-}*/
-
-#logo{
+#logo {
 	height: 150px; 
 	background-color:#242421; 
 }
